@@ -1,5 +1,7 @@
-def main():
-	print('hello')
+import os
+
+def listDir():
+	print(os.listdir(""))
 
 if __name__ == "__main__":
-	main()
+	listDir()
